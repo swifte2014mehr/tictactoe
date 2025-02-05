@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(206, 163, 219);
+}
+
+h1{
+    color:purple;
+    font-family:"Edu Australia VIC WA NT Hand Precursive", sans-serif;
+    text-align:center;
+    font-size:60px;
+}
+
+h2{
+    color:rgb(238, 91, 140);
+    text-align:center;
+    font: size 35px;
+}
+
+.tile{
+    border: 1px solid white;
+    min-width: 90px;
+    min-height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+
+.controls {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.display{
+    color:white;
+    font: size 24px;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+
+.X-display{
+
+color: yellow;
+
+}
+
+.O-display{
+
+color: orange;
+
+}
+
+
+.X-display{
+    color:rgb(232, 224, 235);
+}
+
+.O-display{
+    color:rgb(153, 174, 229);
+}
